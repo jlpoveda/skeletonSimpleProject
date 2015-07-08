@@ -6,7 +6,7 @@ replaceTextInFile('skeletonSimpleProject', $project, 'src/skeletonSimpleProject/
 rename('src/skeletonSimpleProject/skeletonSimpleProject.php', 'src/skeletonSimpleProject/' . $project . '.php');
 rename('src/skeletonSimpleProject', 'src/' . $project);
 replaceTextInFile('skeletonSimpleProject', $project, 'tests/skeletonSimpleProject/Tests/skeletonSimpleProjectTest.php');
-rename('tests/skeletonSimpleProject/Tests/sleketonSimpleProjectTest.php', 'tests/skeletonSimpleProject/Tests/' . $project . 'Test.php');
+rename('tests/skeletonSimpleProject/Tests/skeletonSimpleProjectTest.php', 'tests/skeletonSimpleProject/Tests/' . $project . 'Test.php');
 rename('tests/skeletonSimpleProject', 'tests/' . $project);
 replaceTextInFile('skeletonSimpleProject', $project, 'composer.json');
 replaceTextInFile('skeletonSimpleProject', $project, 'phpunit.xml.dist');
